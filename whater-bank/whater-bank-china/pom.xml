@@ -1,0 +1,31 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>com.whater</groupId>
+		<artifactId>whater-bank</artifactId>
+		<version>0.0.1-SNAPSHOT</version>
+	</parent>
+	<artifactId>whater-bank-china</artifactId>
+
+
+	<dependencies>
+		<dependency>
+			<groupId>com.whater</groupId>
+			<artifactId>whater-mq-support-rocketmq-consumer</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+		 <dependency>
+			<groupId>com.whater</groupId>
+			<artifactId>whater-mq-support-rocketmq-producer</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+		<dependency>
+			<groupId>com.whater</groupId>
+			<artifactId>whater-bank-common</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+	</dependencies>
+
+</project>

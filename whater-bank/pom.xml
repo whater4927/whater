@@ -1,0 +1,34 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>com.whater</groupId>
+    <artifactId>whater</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+  </parent>
+  <artifactId>whater-bank</artifactId>
+  <packaging>pom</packaging>
+  <modules>
+  	<module>whater-bank-china</module>
+  	<module>whater-bank-chengdu</module>
+  	<module>whater-bank-common</module>
+  </modules>
+  
+  <dependencies>
+  	<dependency>
+  		 <groupId>com.whater</groupId>
+	    <artifactId>whater-model</artifactId>
+	    <version>0.0.1-SNAPSHOT</version>
+  	</dependency>
+  <dependency>
+  		 <groupId>com.whater</groupId>
+	    <artifactId>whater-common</artifactId>
+	    <version>0.0.1-SNAPSHOT</version>
+  	</dependency>
+  <dependency>
+  		<groupId>com.whater</groupId>
+  		<artifactId>whater-persistence-jpa</artifactId>
+  		<version>0.0.1-SNAPSHOT</version>
+  	</dependency>
+  </dependencies>
+  
+</project>
